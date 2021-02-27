@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <title>Madlibs Form</title>
+</head>
+<body>
+    Fill in the following form to get your Madlibs story started:
+    <p>
+
+    </p>
+    <form action="/madlib">
+
+    <label>Input a person:</label>
+      <input type="text" name="person">
+      <p></p>
+      
+      Choose a color:
+      <input type="radio" name="color" value="red">
+      <label>Red</label>
+      <input type="radio" name="color" value="green">
+      <label>Green</label>
+      <input type="radio" name="color" value="blue">
+      <label>Blue</label>
+      <p></p>
+
+        Select a noun:
+      <select name="noun">
+        <option value="unicorn">Unicorn</option>
+        <option value="apple">Apple</option>
+        <option value="rainbow">Rainbow</option>
+      </select>
+      <p></p>
+
+      <label>Input an adjective:</label>
+      <textarea name="adjective"></textarea>
+      <p>
+      </p>
+      <input type="submit">
+
+    </form>
+
+</body>
+</html>
